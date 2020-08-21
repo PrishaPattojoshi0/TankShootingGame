@@ -10,7 +10,7 @@ class CanonBall {
     this.height = 25;
     this.body = Bodies.rectangle(x,y,this.width,this.height,options)
 
-    this.ballImage = loadImage('assets/canonBall.png');
+    this.ballImage = loadImage('canonBall.png');
     World.add(world, this.body);
   };
 
